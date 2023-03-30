@@ -126,18 +126,23 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href={props.data ? props.data.linkedin : "https://www.linkedin.com/in/gaurav-nitin-bhoi-597968207"}>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a href={props.data ? props.data.twitter : "https://twitter.com/GauravB94714559?s=09"}>
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.instagram : "https://instagram.com/luffy__078?igshid=YmMyMTA2M2Y="}>
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.github : "https://github.com/Gaurav306193"}>
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
                 </ul>
@@ -149,10 +154,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; WebTech Landing Page . Design by{" "}
+            
+              Gaurav Bhoi
+            
           </p>
         </div>
       </div>

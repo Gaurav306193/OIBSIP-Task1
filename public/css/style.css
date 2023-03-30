@@ -8,6 +8,10 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+h1 {
+  color:rgba(0, 0, 0, 0.2)
+}
+
 h2,
 h3,
 h4 {
@@ -220,7 +224,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: rgba(69, 142, 238, 0.815);
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -229,10 +233,10 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #228bfce8;
 }
 .intro p {
-  color: #fff;
+  color: rgb(15, 14, 14);
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
